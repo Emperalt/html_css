@@ -1,0 +1,151 @@
+* {
+	font-family: sans-serif;
+}
+
+ol {
+	list-style-type: lower-greek;
+	/* ======== Estilos para listas ordenadas:
+		lower-roman
+		upper-roman
+		lower-alpha
+		upper-alpha
+		decimal
+		decimal-leading-zero
+		lower-greek
+	=========== */
+}
+
+ul {
+	list-style-type: square;
+	/* ======== Estilos para listas desordenadas:
+		circle
+		disc
+		square
+	=========== */
+	list-style-position: inside;
+}
+
+.listaticks {
+	list-style-image: url("../img/listicon.png");
+}
+
+.listaticks li {
+	margin-left: 20px;
+}
+
+
+
+
+form fieldset {
+	width: 300px;
+	border: 1px solid #16079e;
+	/* hacer los bordes rendondeados */
+	 border-radius: 10px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 10px; 
+	padding: 20px;
+}
+
+form fieldset label {
+	display: block;
+	margin-bottom: 0px;
+}
+
+form fieldset input {
+	border: none;
+	border-bottom: solid 1px rgb(131, 95, 95);
+	width: 100%;
+	font-size: 1.2em;
+	color: #777;
+}
+
+form fieldset textarea {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #777;
+	font-size: 1.2em;
+	
+}
+
+form legend {
+	background-color: #d9ee20;
+	border: 1px solid #4b0cdf;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #16079e;
+	font-weight:bold;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: green;
+}
+
+a:visited {
+	color: blue;
+}
+
+a:hover {
+	font-size: 2em;
+	color: red;
+	border: dotted 5px green;
+}
+
+a:active {
+	background-color: yellow;
+}
+
+
+table {
+	width: 800px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border: 2px solid #16079e;
+}
+
+th, td {
+	padding: 10px;
+}
+
+th {
+	text-transform: uppercase;
+	font-size: 120%;
+	border-bottom: 2px solid rgb(11, 15, 226);
+	/* border-top: 2px solid #1433be; */
+	text-align: left;
+	background-color: #d9ee20;
+	color:#16079e ;
+}
+
+table .oscura {
+	background-color: #ebebeb;
+}
+
+/* permite que se resalte la fila donde pasa el mouse */
+tr:hover {
+	background-color: #e4f3a4;
+}
+
+h2{
+width: 800px;
+text-align: center;
+}
+
+
+
+
+
+
+
+
